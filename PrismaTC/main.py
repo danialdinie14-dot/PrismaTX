@@ -207,7 +207,7 @@ class ManiaBotController:
 		self.gui: Optional[ManiaGUI] = None
 		self.bot_enabled = True
 		self.osu_unlocker = OsuUnlocker()
-
+		
 		if self.use_gui:
 			self.gui = ManiaGUI()
 			self.gui.on_start_bot = self._gui_start_bot
